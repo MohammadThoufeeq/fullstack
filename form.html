@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <title>Forms in html</title>
+        <style>
+            div{
+                padding-top:20px;
+                text-align: center;
+            }
+            .a{
+                background-color: aquamarine;
+                background-repeat: no-repeat;
+                background-size: cover;
+                        }
+        </style>
+    </head>
+    <body>
+        <forM class="a">
+            <h3 align="center">form</h3>
+        <div>
+            <label for="fname"> First name:</label>
+        <input type="text" id="fname" placeholder="Enter First name">
+    </div>
+        <div>
+            <label for="lname">Last name:</label>
+            <input type="text"id="lname" placeholder="Enter last name">
+        </div>
+        <div>
+        <label for="mail">Email:</label>
+        <input type="email" id="mail" placeholder="enter mail" required>
+        </div>
+        <div>
+        <label for="password">password:</label>
+        <input type="password" id="password" placeholder="enter password" minlength="8">
+        </div>
+        <div>
+            <label for="Age">Age:</label>
+            <input type="number" id="Age" placeholder="enter your age" min="18" max="60" required>
+        </div>
+        <div>
+        <label for="dob">date of birth:</label>
+        <input type="date" id="dob">
+        </div>
+        <div>
+            <label for="gender">gender:</label>
+            <input type="radio" name="gender" value="male"/>male
+            <input type="radio" name="gender">female
+            <input type="radio" name="gender"> other
+
+        </div>
+        <div>
+            <label for="hobbies">hobbies:</label>
+            <input type="checkbox" /> reading
+            <input type="checkbox"/>playing
+            <input type="checkbox">studying
+        </div>
+        <div>
+            <label for="year">year of study:</label>
+            <select name="year" id="year">
+                <option value="1">1st option</option>
+                <option value="2">2nd option</option>
+                <option value="3">3rd option</option>
+                <option value="4">4th option</option>
+            </select>
+        </div>
+        <div>
+            <label for="ADDress">address</label>
+            <textarea name="address"  id="address" rows="2"></textarea>
+        </div>
+        <div>
+            <label for="file">upload a file</label> 
+            <input type="file">
+        </div>
+        <div>
+        <button type="reset">reset</button>
+    </div>
+        <br>
+        <br>
+        <div>
+        <button type="submit">submit</button>
+    </div>
+    </forM>
+    </body>
+
+</html>

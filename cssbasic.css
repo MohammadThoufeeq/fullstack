@@ -1,0 +1,40 @@
+html>
+    <head>
+        <title>Form</title>
+        <style>
+        div{
+            padding-bottom:center;
+        }
+        </head>
+    <body>
+        <forM>
+        <label for="fname"> First name:</label>
+        <input type="text" id="fname" placeholder="Enter First name">
+        <div>
+            <label for="lname">Last name:</label>
+            <input type="text"id="lname" placeholder="Enter last name">
+        </div>
+        <div>
+        <label for="mail">Email:</label>
+        <input type="email" id="mail" placeholder="enter mail" required>
+        </div>
+        <div>
+        <label for="password">password:</label>
+        <input type="password" id="password" placeholder="enter password" minlength="8">
+        </div>
+        <div>
+            <label for="Age">Age:</label>
+            <input type="number" id="Age" placeholder="enter your age" min="18" max="60" required>
+        </div>
+        <div>
+        <label for="dob">date of birth:</label>
+        <input type="date" id="dob">
+        </div>
+        <div>
+            <label for="gender">gender:</label>
+            <input type="radio" name="gender" value="male"/>male
+            <input type="radio" name="gender">female
+            <input type="radio" name="gender"> other
+
+        </div>
+        <div>
