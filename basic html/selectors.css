@@ -1,0 +1,26 @@
+*{
+    margin: auto;
+    color: blue;
+}
+h1{
+    color: aqua;
+    text-align: center;
+}
+div{
+    color: blueviolet;
+}
+.class{
+    background-color: crimson;
+}
+#welcome{
+    font-size: 10px;
+}
+input[type="text"]{
+  font-size: 40px;
+}
+.parent .child{
+background-color: orange;
+}
+.child-selector>div{
+    font-size:large;
+}
